@@ -15,16 +15,17 @@ li {
     font-size: 20px;
     line-height: 2;
     letter-spacing: 1px;
+    color:purple
 }
 
 html {
-    background-color: #00539f;
+    background-color: lightgrey;
 }
 
 body {
     width: 600px;
     margin: 0 auto;
-    background-color: #ff9500;
+    background-color: rgb(238, 78, 78);
     padding: 0 20px 20px 20px;
     border: 5px solid black;
 }
@@ -32,7 +33,7 @@ body {
 h1 {
     margin: 0;
     padding: 20px 0;
-    color: #00539F;
+    color: blue;
     text-shadow: 3px 3px 1px black;
 }
 

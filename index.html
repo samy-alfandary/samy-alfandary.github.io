@@ -10,28 +10,46 @@
 </head>
 
 <body>
-    <h1>HTML Basics</h1>
-    <img src="images/FC_Barcelona.png" alt="FC Barcelona's iconic logo" width="200" />
-    <p> I have been playing soccer since I was born. Soccer has always been my passion and my main sport. My favorite
-        team is FC Barcelona and has been since I was a little kid. Last year, I had the opportunity to do a semester
-        abroad in Spain. During my time in Spain, I was able to travel to Barcelona and attend an FC Barcelona game. It
-        was an incredible experience to watch my favorite childhood team play in real life and not only on a TV screen.
+    <h1>Samy Alfandary
+    </h1>
+    <h3> Click on image to see my favorite hobbies</h3>
+    <img src="images/gym.jpeg" alt="Samy Alfandary portrait" width="200" />
+    <p> I was born and raised in Miami, FL and my family is from Venezuela. I am a fourth-year Data Science and Business
+        Administration major with a concentration in finance. I had the exciting opportunity to study abroad last
+        semester in Madrid, Spain at a top business school named IE University. This past summer I did an internship at
+        an
+        investment management firm in Miami called <a href="https://aliyacapitalpartners.com/">Aliya Capital
+            Partners</a>. Some of my responsibilities there included
+        researching and analyzing investment opportunities and also managing and optimizing client portfolios. I also
+        had the
+        opportunity to experience the strategy consulting industry through a 6-month co-op at <a
+            href="https://www.lek.com/">LEK Consulting</a> as a Case
+        Team Assistant. I was involved in multiple cases in the industrials sector ranging from Vendor Due Diligence,
+        Commercial Due diligence and strategy. I would describe myself as a disciplined and highly motivated individual
+        that can quickly adapt to fast-paced environments and after various internships I am grateful for all the
+        knowledge and experience that I have had the privilege of being exposed to.
     </p>
 
-    <p>Some of the places I traveled to while abroad include:</p>
+    <p>Things to implement in the future:</p>
 
     <ul>
-        <li>Morocco</li>
-        <li>Ireland</li>
-        <li>Italy</li>
-        <li>France</li>
-        <li>Portugal</li>
+        <li>Tabs </li>
+        <li>Moving Objects</li>
+        <li>Progress Bar</li>
+        <li>Scroll Box</li>
     </ul>
 
     <p>Read the <a href="https://geo.northeastern.edu/">Northeastern GEO site</a>
         to learn more about study abroad opportunities.</p>
 
-    <button>Change user</button>
+    <button onclick="document.getElementById('emailDisplay').innerHTML = 'alfandary.s@northeastern.edu'">Show
+        Northeastern Email</button>
+    <p id="emailDisplay"></p>
+
+    <label for="iceCreamInput">What is your favorite ice cream flavor?</label>
+    <input type="text" id="iceCreamInput" name="iceCreamInput">
+    <button onclick="checkFlavor()">Check Flavor</button>
+
     <script src="scripts/main.js"></script>
 
 </body>
